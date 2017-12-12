@@ -1,0 +1,9 @@
+<div class="card" [class.reverse]="card.isReverse">
+  <div class="card-description">{{description}}</div>
+  <div class="card-content">
+    <div class="card-ko">{{card.content.ko}}</div>
+    <div class="card-kanji">{{card.content.kanji}}</div>
+  </div>
+  <div class="card-direction" *ngIf="card.isReverse">역방향</div>
+  <div class="card-direction" *ngIf="!card.isReverse"></div>
+</div>

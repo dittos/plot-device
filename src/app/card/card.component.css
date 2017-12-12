@@ -1,0 +1,40 @@
+.card {
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 70px;
+  height: 110px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.card-description {
+  font-size: 0.7em;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 0.5em;
+  height: 2em;
+  word-wrap: break-word;
+}
+
+.card-direction {
+  height: 2em;
+  line-height: 2em;
+  text-align: right;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding-right: 0.5em;
+  color: red;
+}
+
+.card-content {
+  margin: auto;
+  padding-top: 0.5em;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.card-ko {
+  font-weight: bold;
+}
